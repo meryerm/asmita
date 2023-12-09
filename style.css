@@ -1,0 +1,786 @@
+*{ 
+      margin: 0px;
+      padding: 0px; 
+      /* box-sizing: border-box; */
+}
+      /* container */
+.container{ 
+      background-image: url(image/pic2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+      display: flex;
+      width: 100%;
+
+}
+.nav a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bolder;
+      position: relative;
+      left: 550px;
+      margin: 15px;
+      top: 10px;
+      font-family: sans-serif;
+      text-transform: uppercase;
+}
+.title{
+      position: relative;
+      left: 60px;
+      color: white;
+      top: 25px;
+}
+.title h1{
+      font-size: 42px;
+      font-family: sans-serif;
+      letter-spacing: 0px;
+}
+.title p{
+      position: relative;
+      left: 20px;
+      bottom: 7px;
+}
+span1{
+      color: rgba(230, 25, 25, 0.813);
+      position: relative;
+      right: 10px;
+}
+      /* hero */
+.hero{
+      position: relative;
+      bottom: 370px;
+      width: 100%;
+      height: 2px;
+      
+}
+.hero p{
+   font-size: 20px;  
+   padding-left: 60px; 
+   font-size: 30px;
+   text-transform:capitalize ;
+   color: #fff;
+   font-family: sans-serif;
+   font-weight: bolder;
+}
+.hero h4{
+      padding-left: 60px;
+      color: #f3eaea;
+      font-size: 14px;
+}
+.hero button{
+      position: relative;
+      left: 66px;
+      top: 16px;
+      padding: 8px 40px;
+      color: #fff;
+      background-color: rgb(229, 36, 36);
+      border: none;
+      text-transform: capitalize;
+      font-size: 15px;
+}
+span2{
+      color: rgba(230, 25, 25, 0.813);
+      font-size: 30px;
+   text-transform:capitalize ;
+   font-family: sans-serif;
+   font-weight: bolder;
+}
+     /* slogan */
+.slogan{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    background-color: rgb(222, 217, 217);
+    height: 350px;
+    
+}
+.slogan1 h2{
+      position: relative;
+      top: 30px;
+      left: 450px;
+      font-size: 30px;
+      color: brown;
+      
+}
+.slogan2 img{
+      position: relative;
+      right: 340px;
+      top: 90px;
+      
+}
+.slogan3 p{
+      position: relative;
+      right: 350px;
+      font-size: 25px;
+      top: 150px;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      
+}
+     /* showcase */
+.showcase{
+      height: 400px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding-top: 20px;
+}
+.showcase1 h2{
+      position: relative;
+      left: 560px;
+      color: rgb(120, 19, 19);
+      font-size: 27px;
+      text-transform: capitalize;
+}
+.showcase2 img{
+      position: relative;
+      right: 200px;
+      top: 50px;
+}
+.showcase3 img{
+      position: relative;
+      right: 130px;
+      top: 100px;
+}
+.showcase4 img{
+      position: relative;
+      right: 70px;
+      top: 100px;
+}
+.showcase5 button{
+      position: relative;
+      left: 530px;
+      top: 10px;
+      padding: 10px 70px;
+      color: #fff;
+      background-color: rgba(190, 12, 12, 0.966);
+      border: none;
+      font-size: 20px;
+      text-transform: uppercase;
+}
+           /* about */
+.about{
+      height: 400px;
+      display: flex;
+      padding-top: 20px;
+      background-color: #000;
+      color: #fff;
+
+}
+.about1 img{
+       position: relative;
+       left: 100px;
+       top: 50px;
+}
+.about2{
+      position: relative;
+      top: 20px;
+      left: 200px;
+      
+}
+.about2 h2{
+      position: relative;
+      left: 40px;
+      font-size: 30px;
+      text-transform: capitalize;
+}
+.about2 p{
+      position: relative;
+      top: 40px;
+      left: 10px;
+      line-height: 1.5em;
+      
+}
+.about2 button{
+      position: relative;
+      top: 90px;
+      left: 120px;
+      padding: 7px 50px;
+      color: brown;
+      font-size: 18px;
+}
+          /* services */
+.services{
+      padding-top: 20px;
+      height: 680px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      background-color: #000;
+      color: #fff;
+}
+.services1{
+      position: relative;
+      left: 600px;
+      
+}
+.services2{
+      position: relative;
+      top: 150px;
+      left: 70px;
+      border: 0.5px solid gray;
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+}
+.services3{
+      position: relative;
+      top: 150px;
+      padding-left: 60px;
+      border: 0.5px solid gray;
+      width: 150px;
+      height: 200px;
+      border-radius: 15px;
+      
+      
+      
+}
+.services4{
+      position: relative;
+      bottom: 110px;
+      left: 100px;
+      border: 0.5px solid gray;
+      width: 200px;
+      height: 200px;
+}
+.services4{
+      position: relative;
+      bottom: 80px;
+      border: 0.5px solid gray;
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+}
+.services5{
+      position: relative;
+      left: 70px;
+      top: 190px;
+      border: 0.5px solid gray;
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+}
+.services6{
+      position: relative;
+      top: 190px;
+      padding-left: 70px;
+      border: 0.5px solid gray;
+      width: 140px;
+      height: 200px;
+      border-radius: 15px;
+}
+.services7{
+      padding-left: 80px;
+      padding-bottom: 60px;
+      border: 0.5px solid gray;
+      width: 130px;
+      height: 140px;
+      position: relative;
+      left: 70px;
+      bottom: 36px;
+      border-radius: 15px;
+
+      
+}
+.services2 img{
+      
+      position: relative;
+      left:70px ;
+      top: 20px;
+      border-radius: 25px;
+      width: 60px;
+}
+.services2 h3{
+      position: relative;
+      left: 40px;
+      top: 30px;
+}
+.services2 p{
+      position: relative;
+      left: 90px;
+      top: 30px;
+}
+.services2 button{
+      position: relative;
+      left: 65px;
+      top: 30px;
+      background-color:rgba(243, 243, 101, 0.904);
+      color: #ffffff; 
+      padding: 5px;
+      border-radius: none;
+}
+.services3 img{
+      
+      position: relative;
+      left: 9px ;
+      top: 20px;
+      border-radius: 25px;
+      width: 60px;
+}
+.services3 h3{
+      position: relative;
+      right: 15px;
+      top: 25px;
+}
+.services3 p{
+      position: relative;
+      left: 30px;
+      top: 30px;
+}
+.services3 button{ 
+      position: relative;
+      top: 30px; 
+      background-color:rgba(243, 243, 101, 0.904);
+      color: #ffffff; 
+      padding: 5px;
+      border-radius: none;
+}
+
+.services4 img{
+      
+      position: relative;
+      left: 70px ;
+      top: 14px;
+      border-radius: 25px;
+      width: 60px;
+}
+.services4 h3{
+      position: relative;
+      left: 30px;
+      top: 20px;
+}
+.services4 p{
+      position: relative;
+      left: 70px;
+      top: 20px;
+}
+.services4 button{ 
+      position: relative;
+      top: 20px; 
+      left: 50px;
+      background-color:rgba(243, 243, 101, 0.904);
+      color: #ffffff; 
+      padding: 5px;
+      border-radius: none;
+}
+.services5 img{
+      
+      position: relative;
+      left: 70px ;
+      top: 14px;
+      border-radius: 25px;
+      width: 60px;
+      height: 88px;
+}
+.services5 h3{
+      position: relative;
+      left: 30px;
+      top: 20px;
+}
+.services5 p{
+      position: relative;
+      left: 70px;
+      top: 20px;
+}
+.services5 button{ 
+      position: relative;
+      top: 20px; 
+      left: 50px;
+      background-color:rgba(243, 243, 101, 0.904);
+      color: #ffffff; 
+      padding: 5px;
+      border-radius: none;
+}.services6 img{
+      
+      position: relative;
+      left: 9px ;
+      top: 20px;
+      border-radius: 25px;
+      width: 60px;
+}
+.services6 h3{
+      position: relative;
+      right: 15px;
+      top: 25px;
+}
+.services6 p{
+      position: relative;
+      left: 30px;
+      top: 30px;
+}
+.services6 button{ 
+      position: relative;
+      top: 30px; 
+      background-color:rgba(243, 243, 101, 0.904);
+      color: #ffffff; 
+      padding: 5px;
+      border-radius: none;
+}
+.services7 img{
+      position: relative;
+      left: 5px ;
+      top: 10px;
+      border-radius: 25px;
+      width: 60px;
+      height: 70px;
+
+}
+.services7 h3{
+      position: relative;
+      right: 45px;
+
+
+}
+
+.services7 p{
+      position: relative;
+      left: 20px;
+      top: 20px;
+}
+.services7 button{ 
+      position: relative;
+      top: 20px; 
+      background-color:rgba(243, 243, 101, 0.904);
+      color: #ffffff; 
+      padding: 5px;
+      border-radius: none;
+}
+     /* customer */
+.customer{
+      height: 470px;
+      width: 100%;
+      background-color: #2d2929;
+      color: #fff;
+      padding-top: 30px;
+      
+}
+.customer1 h3{
+     text-align: center;
+     font-size: 23px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+      
+.customer5{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+    
+     
+}
+.customer2{
+      background-color: #2d2929;
+      border: 0.5px solid gray;
+      width: 280px;
+      align-items: center;
+      height: 350px;
+      position: relative;
+      left: 25px;
+      padding: 5px 13px;
+      border-radius: 10px;
+      
+}
+.customer2 img{
+      position: relative;
+      left:100px ;
+      top: 30px;
+      border-radius: 40px;
+}
+.customer2 h4{
+      position: relative;
+      top: 60px;
+      left: 100px;
+      font-size: 25px;
+}
+
+.customer2{
+      background-color: #2d2929;
+      border: 0.5px solid gray;
+      width: 280px;
+      align-items: center;
+      height: 350px;
+      position: relative;
+      left: 25px;
+      padding: 5px 13px;
+      border-radius: 10px;
+      
+}
+.customer2 img{
+      position: relative;
+      left:100px ;
+      top: 30px;
+      border-radius: 40px;
+}
+.customer2 h4{
+      position: relative;
+      top: 60px;
+      left: 100px;
+      font-size: 25px;
+}
+.customer2{
+      background-color: #2d2929;
+      border: 0.5px solid gray;
+      width: 280px;
+      align-items: center;
+      height: 350px;
+      position: relative;
+      left: 25px;
+      padding: 5px 13px;
+      border-radius: 10px;
+      
+}
+.customer2 img{
+      position: relative;
+      left:100px ;
+      top: 30px;
+      border-radius: 40px;
+}
+.customer2 h4{
+      position: relative;
+      top: 60px;
+      left: 100px;
+      font-size: 25px;
+}
+.customer3{
+      background-color: #2d2929;
+      border: 0.5px solid gray;
+      width: 280px;
+      align-items: center;
+      height: 350px;
+      position: relative;
+      left: 25px;
+      padding: 5px 13px;
+      border-radius: 10px;
+      
+}
+.customer3 img{
+      position: relative;
+      left:100px ;
+      top: 30px;
+      border-radius: 40px;
+}
+.customer3 h4{
+      position: relative;
+      top: 60px;
+      left: 100px;
+      font-size: 25px;
+}
+.customer4{
+      background-color: #2d2929;
+      border: 0.5px solid gray;
+      width: 280px;
+      align-items: center;
+      height: 350px;
+      position: relative;
+      left: 25px;
+      padding: 5px 13px;
+      border-radius: 10px;
+      
+}
+.customer4 img{
+      position: relative;
+      left:100px ;
+      top: 30px;
+      border-radius: 40px;
+}
+.customer4 h4{
+      position: relative;
+      top: 60px;
+      left: 100px;
+      font-size: 25px;
+}
+          /* contacts */
+          .maryan{
+            height: 300px;
+            background-color: rgb(228, 113, 117);
+            width: 100%;
+           
+          }
+          .maryan h2{
+            padding-left: 500px;
+            font-size: 40px;
+            padding-top: 120px;
+            text-transform: capitalize;
+            color: #fff;
+
+          }
+               /* hear */
+          .hear{
+            height: 200px;
+            padding-top: 20px;
+          }
+          .hear h3{
+            padding-left: 600px;
+            font-size: 26px;
+            text-transform: uppercase;
+            word-spacing: 1px;
+          }
+          .hear p{
+            padding-left: 200px;
+            padding-top: 20px;
+            font-size: 20px;
+          }
+          span9{
+            color: rgb(109, 13, 13);
+            text-decoration: underline;
+          }
+          span10{
+            padding-left: 150px;
+          }
+              /* info */
+          .info{
+            background-color: rgb(227, 105, 105);
+            color: #fff;
+            height: 200px;
+            padding-top: 80px;
+            
+          }
+          .info h3{
+            padding-left: 700px;
+            font-size: 25px;
+            font-weight: bolder;
+          }
+          .info p{
+            padding-left: 500px;
+            padding-top: 20px;
+            font-size: 20px;
+          }
+          .info button{
+            position: relative;
+            left: 730px;
+            top: 40px;
+            padding: 10px 30px;
+            color: rgb(138, 126, 126);
+          }
+         
+          span15{
+            color: rgb(221, 69, 9);
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* footer */
+.footer{
+      background-color: rgba(201, 40, 40, 0.861);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      height: 220px;
+      padding-top: 20px;
+
+}
+.footer1{
+      position: relative;
+      left: 60px;
+}
+.footer1 p{
+      font-size: 30px;
+      color: #fff;
+}
+.footer1 img{
+      position: relative;
+      left: 85px;
+      bottom: 40px;
+}
+.footer2{
+      position: relative;
+      top: 40px;
+}
+.footer2 input{
+      position: relative;
+      top: 7px;
+      padding:8px 20px;
+      border: none;
+}
+.footer2 p{
+      font-size: 20px;
+      color: #fff;
+}
+.footer2 button{
+      position: relative;
+      top: 7px;
+      right: 10px;
+      padding: 8px 15px;
+      border: none;
+      background-color: #000;
+      color: #fff;
+      border-radius: 7px;
+      border: 1px solid white;
+}
+.footer3{
+    position: relative;
+    top: 60px;
+    padding-left: 50px;
+}
+.footer3 p{
+      position: relative;
+      bottom: 16px;
+      padding-left: 60px;
+      font-size: 20px;
+      font-family: sans-serif;
+      color: #fff;
+      letter-spacing: 3px;
+}
+.footer4 p{
+      position: relative;
+      top: 20px;
+      left: 400px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bolder;
+}
